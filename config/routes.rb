@@ -5,10 +5,6 @@ Rails.application.routes.draw do
 
   root to: "users#index"
 
-  get 'user/index'
-
-  get 'user/import'
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
